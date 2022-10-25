@@ -1,9 +1,11 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import HonorDex from './honor.dex'
 import HonorHonor from './honor.honor'
 
 
 export default { 
+  HonorDex: load(HonorDex, 'honor.dex'),
   HonorHonor: load(HonorHonor, 'honor.honor'),
   
 }
